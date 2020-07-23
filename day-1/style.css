@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+p{
+    color: white;
+    font-family: cursive;
+}
+.header{
+    padding: 0 150px;
+    height: 80px;
+    background-color: #3f5c9a;
+}
+
+.logo{
+    width: 50%;
+    float: left;
+}
+.logo > span{
+    font-size: 35px;
+    color: white;
+    font-weight: 900;
+    font-family: cursive;
+    line-height: 80px;
+} 
+.loginForm{
+    display: flex;
+    width: 50%;
+    float: left;
+}
+.singeInput{
+    margin: 0 20px;
+}
+.btn{    
+    width: 65px;
+    height: 32px;
+    background-color: #4267b2;
+    outline: none;
+    border: 1px solid #c3c3c3;
+    border-radius: 5px;
+    color: white;
+    margin-top: 28px;
+    margin-left: 30px;
+}
